@@ -1,6 +1,6 @@
 {
-	"name": "obsidian-tasknav-plugin",
-	"version": "0.1.0",
+	"name": "tasknav",
+	"version": "0.1.2",
 	"description": "Simple rescheduling of tasks and navigation across daily notes.",
 	"main": "main.js",
 	"scripts": {

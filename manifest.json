@@ -1,10 +1,10 @@
 {
 	"id": "tasknav",
 	"name": "Tasks navigation",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"minAppVersion": "0.15.0",
 	"description": "Simple rescheduling of tasks and navigation across daily notes.",
-	"author": "Pavel Khristolubov",
-	"authorUrl": "https://github.com/pkhr/obsidian-tasknav/",
+	"author": "Pavel Khristolybov",
+	"authorUrl": "https://x.com/pkhr",
 	"isDesktopOnly": false
 }
