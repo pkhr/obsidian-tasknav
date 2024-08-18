@@ -44,7 +44,7 @@ export default class TaskNavPlugin extends Plugin {
 		
 		// This adds an editor command that can perform some operation on the current editor instance
 		this.addCommand({
-			id: 'tasknav-reschedule-command',
+			id: 'tasknav-reschedule',
 			name: 'Reschedule tasks in the selection',
 			hotkeys: [{ modifiers: ["Ctrl", "Shift"], key: "ArrowRight" }],			
 			editorCallback: (editor: Editor, view: MarkdownView) => {
@@ -91,7 +91,7 @@ export default class TaskNavPlugin extends Plugin {
 		});
 
 		this.addCommand({
-			id: 'tasknav-navigate-back-command',
+			id: 'tasknav-navigate-back',
 			name: 'Daily note of original task date',
 			hotkeys: [{ modifiers: ["Ctrl", "Shift"], key: "ArrowLeft" }],			
 			editorCallback: (editor: Editor, view: MarkdownView) => {
@@ -107,7 +107,7 @@ export default class TaskNavPlugin extends Plugin {
 		});		
 
 		this.addCommand({
-			id: 'tasknav-next-command',
+			id: 'tasknav-next',
 			name: 'Next day note (create if needed)',
 			hotkeys: [{ modifiers: ["Ctrl"], key: "ArrowRight" }],			
 			checkCallback: (checking: boolean) => {
@@ -125,7 +125,7 @@ export default class TaskNavPlugin extends Plugin {
 		});
 
 		this.addCommand({
-			id: 'tasknav-prev-command',
+			id: 'tasknav-prev',
 			name: 'Previous day note (create if needed)',
 			hotkeys: [{ modifiers: ["Ctrl"], key: "ArrowLeft" }],			
 			checkCallback: (checking: boolean) => {
